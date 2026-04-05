@@ -1,6 +1,4 @@
-[theme]
-# The main accent color (used for buttons, sliders, and highlights)
-primaryColor = "#1f77b4" 
+
 
 # Background color of the main area
 backgroundColor = "#ffffff"
