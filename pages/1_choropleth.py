@@ -63,8 +63,17 @@ if len(available_cols) > 3: hovertemplate += 'Digital: %{customdata[3]:.1f}<br>'
 if len(available_cols) > 4: hovertemplate += 'Barriers: %{customdata[4]:.1f}'
 hovertemplate += '<extra></extra>'
 
+st.subheader("Map Options")
+# Create a dropdown menu
+metric_choice = st.selectbox(
+    "Select a metric to visualize on the map:",
+    options=['fri_score', 'supply_score', 'demand_score', 'digital_score', 'barriers_score'],
+    # This formats the ugly column names into clean text for the user
+    format_func=lambda x: x.replace('_score', '').title().replace('Fri', 'Total FRI')
+)
+
 fig = go.Figure(data=go.Choroplethmapbox(
-    z=df['fri_score'],
+    z=df[metric_choice],
     locations=df['state_code'],
     geojson=geojson,
     featureidkey=feature_id_string,  
@@ -83,7 +92,9 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
-
 st.subheader("State Scores")
-
-st.dataframe(df[available_cols + ['fri_score']].sort_values('fri_score', ascending=False), use_container_width=True)
+st.dataframe(
+    df[available_cols + ['fri_score']].sort_values('fri_score', ascending=False),
+    use_container_width=True,
+    hide_index=True  
+)
