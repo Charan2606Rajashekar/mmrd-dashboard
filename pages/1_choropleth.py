@@ -42,7 +42,7 @@ fig = go.Figure(data=go.Choroplethmapbox(
     zmin=0,
     zmax=100,
     colorbar=dict(title="FRI Score", thickness=15, len=0.7),
-    # Simplified hover template below:
+    
     hovertemplate='<b>%{customdata[0]}</b><br>FRI Score: %{z:.1f}<extra></extra>',
     customdata=df[['state_name']].values
 ))
@@ -56,4 +56,5 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 st.subheader("State Scores")
-st.dataframe(df[['state_name', 'fri_score', 'supply_score', 'demand_score', 'digital_score', 'barriers_score']].sort_values('fri_score', ascending=False))
+
+st.dataframe(df[['state_name', 'fri_score']].sort_values('fri_score', ascending=False), use_container_width=True)
