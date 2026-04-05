@@ -37,6 +37,7 @@ fig = go.Figure(data=go.Choroplethmapbox(
     z=df['fri_score'],
     locations=df['state_code'],
     geojson=geojson,
+    featureidkey="properties.CVE_ENT",
     colorscale='RdYlGn',
     zmin=0,
     zmax=100,
