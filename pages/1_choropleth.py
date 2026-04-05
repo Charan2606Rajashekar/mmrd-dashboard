@@ -37,13 +37,14 @@ fig = go.Figure(data=go.Choroplethmapbox(
     z=df['fri_score'],
     locations=df['state_code'],
     geojson=geojson,
-    featureidkey="properties.CVE_ENT",
+    featureidkey="properties.CVE_ENT",  
     colorscale='RdYlGn',
     zmin=0,
     zmax=100,
     colorbar=dict(title="FRI Score", thickness=15, len=0.7),
-    hovertemplate='<b>%{customdata[0]}</b><br>FRI: %{z:.1f}<br>Supply: %{customdata[1]:.1f}<br>Demand: %{customdata[2]:.1f}<br>Digital: %{customdata[3]:.1f}<br>Barriers: %{customdata[4]:.1f}',
-    customdata=df[['state_name', 'supply_score', 'demand_score', 'digital_score', 'barriers_score']].values
+    # Simplified hover template below:
+    hovertemplate='<b>%{customdata[0]}</b><br>FRI Score: %{z:.1f}<extra></extra>',
+    customdata=df[['state_name']].values
 ))
 
 fig.update_layout(
