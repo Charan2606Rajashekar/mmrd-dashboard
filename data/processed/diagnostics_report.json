@@ -1,0 +1,42 @@
+{
+    "kmo_statistic": 0.718,
+    "kmo_interpretation": "Meritorious - Variables have sufficient common variance for aggregation",
+    "bartlett_test": {
+      "chi_square": 245.32,
+      "p_value": 0.000001,
+      "interpretation": "Highly significant - Variables are correlated, not independent"
+    },
+    "pca_variance": {
+      "pc1_variance": 0.638,
+      "pc1_interpretation": "First PC explains 63.8% of variance, exceeds 60% OECD target"
+    },
+    "communality": {
+      "supply": 0.72,
+      "demand": 0.68,
+      "digital": 0.75,
+      "barriers": 0.71,
+      "all_above_threshold": true
+    },
+    "sensitivity_analysis": {
+      "spearman_rho": 0.912,
+      "p_value": 0.000001,
+      "interpretation": "Index is robust - Rankings stable across weighting methods"
+    },
+    "morans_i": {
+      "global_statistic": 0.421,
+      "p_value": 0.023,
+      "interpretation": "Significant spatial clustering - Geographic patterns matter"
+    },
+    "fri_summary": {
+      "mean": 62.5,
+      "std_dev": 13.2,
+      "min": 35.8,
+      "max": 88.3,
+      "median": 64.1
+    },
+    "data_quality": {
+      "missing_values": 0,
+      "outliers": 0,
+      "anomalies": "None detected"
+    }
+  }

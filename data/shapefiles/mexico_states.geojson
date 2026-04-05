@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aguascalientes",
+        "CVE_ENT": "01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-102.29, 22.90], [-101.50, 22.90], [-101.50, 21.84], [-102.29, 21.84], [-102.29, 22.90]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baja California",
+        "CVE_ENT": "02"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.13, 32.72], [-114.73, 32.72], [-114.73, 30.35], [-117.13, 30.35], [-117.13, 32.72]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baja California Sur",
+        "CVE_ENT": "03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-114.80, 26.95], [-109.43, 26.95], [-109.43, 22.87], [-114.80, 22.87], [-114.80, 26.95]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campeche",
+        "CVE_ENT": "04"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-92.00, 19.86], [-87.75, 19.86], [-87.75, 17.10], [-92.00, 17.10], [-92.00, 19.86]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chiapas",
+        "CVE_ENT": "07"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-94.24, 17.81], [-90.27, 17.81], [-90.27, 14.53], [-94.24, 14.53], [-94.24, 17.81]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chihuahua",
+        "CVE_ENT": "08"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-109.05, 32.29], [-103.62, 32.29], [-103.62, 26.90], [-109.05, 26.90], [-109.05, 32.29]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ciudad de México",
+        "CVE_ENT": "09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.36, 19.60], [-98.99, 19.60], [-98.99, 19.03], [-99.36, 19.03], [-99.36, 19.60]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coahuila",
+        "CVE_ENT": "05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-104.05, 29.80], [-97.37, 29.80], [-97.37, 25.84], [-104.05, 25.84], [-104.05, 29.80]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colima",
+        "CVE_ENT": "06"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-104.65, 19.72], [-103.73, 19.72], [-103.73, 18.75], [-104.65, 18.75], [-104.65, 19.72]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Durango",
+        "CVE_ENT": "10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-108.65, 26.98], [-103.48, 26.98], [-103.48, 23.90], [-108.65, 23.90], [-108.65, 26.98]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guanajuato",
+        "CVE_ENT": "11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-102.58, 21.88], [-99.65, 21.88], [-99.65, 19.80], [-102.58, 19.80], [-102.58, 21.88]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guerrero",
+        "CVE_ENT": "12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-102.20, 18.67], [-97.76, 18.67], [-97.76, 16.47], [-102.20, 16.47], [-102.20, 18.67]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hidalgo",
+        "CVE_ENT": "13"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.90, 21.30], [-98.18, 21.30], [-98.18, 20.08], [-99.90, 20.08], [-99.90, 21.30]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jalisco",
+        "CVE_ENT": "14"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-105.67, 21.53], [-103.49, 21.53], [-103.49, 18.90], [-105.67, 18.90], [-105.67, 21.53]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mexico",
+        "CVE_ENT": "15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-100.36, 20.27], [-98.48, 20.27], [-98.48, 18.36], [-100.36, 18.36], [-100.36, 20.27]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michoacán",
+        "CVE_ENT": "16"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-104.78, 20.00], [-100.79, 20.00], [-100.79, 17.92], [-104.78, 17.92], [-104.78, 20.00]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morelos",
+        "CVE_ENT": "17"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.64, 19.12], [-98.65, 19.12], [-98.65, 18.36], [-99.64, 18.36], [-99.64, 19.12]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nayarit",
+        "CVE_ENT": "18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-105.87, 22.76], [-104.37, 22.76], [-104.37, 20.64], [-105.87, 20.64], [-105.87, 22.76]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nuevo León",
+        "CVE_ENT": "19"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-100.82, 28.36], [-97.14, 28.36], [-97.14, 25.61], [-100.82, 25.61], [-100.82, 28.36]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oaxaca",
+        "CVE_ENT": "20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-98.58, 18.13], [-93.62, 18.13], [-93.62, 15.87], [-98.58, 15.87], [-98.58, 18.13]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puebla",
+        "CVE_ENT": "21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.74, 20.34], [-97.15, 20.34], [-97.15, 18.25], [-99.74, 18.25], [-99.74, 20.34]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Querétaro",
+        "CVE_ENT": "22"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-101.63, 21.60], [-99.61, 21.60], [-99.61, 20.35], [-101.63, 20.35], [-101.63, 21.60]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quintana Roo",
+        "CVE_ENT": "23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-88.20, 20.68], [-86.73, 20.68], [-86.73, 17.83], [-88.20, 17.83], [-88.20, 20.68]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Luis Potosí",
+        "CVE_ENT": "24"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-102.27, 23.18], [-98.73, 23.18], [-98.73, 21.48], [-102.27, 21.48], [-102.27, 23.18]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinaloa",
+        "CVE_ENT": "25"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-109.47, 26.59], [-105.37, 26.59], [-105.37, 22.75], [-109.47, 22.75], [-109.47, 26.59]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sonora",
+        "CVE_ENT": "26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.13, 32.39], [-108.24, 32.39], [-108.24, 26.85], [-117.13, 26.85], [-117.13, 32.39]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tabasco",
+        "CVE_ENT": "27"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-94.13, 18.64], [-91.60, 18.64], [-91.60, 17.00], [-94.13, 17.00], [-94.13, 18.64]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamaulipas",
+        "CVE_ENT": "28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.10, 27.50], [-96.99, 27.50], [-96.99, 22.28], [-99.10, 22.28], [-99.10, 27.50]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tlaxcala",
+        "CVE_ENT": "29"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-98.65, 19.77], [-97.74, 19.77], [-97.74, 19.10], [-98.65, 19.10], [-98.65, 19.77]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Veracruz",
+        "CVE_ENT": "30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-98.39, 20.95], [-96.18, 20.95], [-96.18, 17.10], [-98.39, 17.10], [-98.39, 20.95]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yucatán",
+        "CVE_ENT": "31"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-90.43, 21.62], [-87.12, 21.62], [-87.12, 19.80], [-90.43, 19.80], [-90.43, 21.62]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zacatecas",
+        "CVE_ENT": "32"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-103.74, 25.02], [-101.77, 25.02], [-101.77, 22.01], [-103.74, 22.01], [-103.74, 25.02]]]
+      }
+    }
+  ]
+}
