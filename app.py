@@ -1,26 +1,25 @@
 import streamlit as st
 
-st.title("Mexican Fintech Readiness Dashboard")
-st.write("MMRD - Testing Version")
+st.set_page_config(page_title="MMRD Project", layout="wide")
 
-st.header("About This Dashboard")
-st.write("""
-This dashboard measures fintech readiness across 32 Mexican states.
+st.title("Mexican Fintech Readiness Dashboard (MMRD)")
+st.write("Welcome to my MSc Fintech research project dashboard.")
 
-Four dimensions measured:
-- Supply: Banking infrastructure
-- Demand: Financial behavior
-- Digital: Technology access
-- Barriers: Socioeconomic obstacles
-""")
+st.header("About This Project")
+st.write("This dashboard measures the fintech readiness of all 32 Mexican states to identify areas of opportunity and infrastructure gaps.")
+st.write("The Fintech Readiness Index (FRI) is calculated using a robust statistical pipeline (PCA weighting) based on four main dimensions:")
 
-st.header("Pages")
-st.write("""
-1. Choropleth - Geographic map showing FRI scores
-2. Comparison - Compare states
-3. Decomposition - Break down scores
-4. Analysis - Statistical validation
-""")
+st.markdown("- **Supply:** Banking infrastructure (branches, ATMs)")
+st.markdown("- **Demand:** Financial behavior (account ownership, transactions)")
+st.markdown("- **Digital:** Technology access (internet, smartphone adoption)")
+st.markdown("- **Barriers:** Socioeconomic obstacles (poverty, deprivation)")
+
+st.header("Navigation")
+st.write("Use the sidebar on the left to explore the dashboard:")
+st.markdown("1. **Map:** View the geographic clustering of the FRI scores.")
+st.markdown("2. **Comparison:** *(Coming soon)* Benchmark specific states against one another.")
+st.markdown("3. **Decomposition:** *(Coming soon)* Analyze what is driving a specific state's score.")
+st.markdown("4. **Diagnostics:** *(Coming soon)* View the statistical validation (KMO, PCA variance, Moran's I).")
 
 st.write("---")
-st.write("Testing Version - Dummy Data")
+st.caption("Note: This version is currently using structural testing data. Real index scores will be updated here after running the main data pipeline.")
