@@ -64,11 +64,11 @@ if len(available_cols) > 4: hovertemplate += 'Barriers: %{customdata[4]:.1f}'
 hovertemplate += '<extra></extra>'
 
 st.subheader("Map Options")
-# Create a dropdown menu
+
 metric_choice = st.selectbox(
     "Select a metric to visualize on the map:",
     options=['fri_score', 'supply_score', 'demand_score', 'digital_score', 'barriers_score'],
-    # This formats the ugly column names into clean text for the user
+    
     format_func=lambda x: x.replace('_score', '').title().replace('Fri', 'Total FRI')
 )
 
